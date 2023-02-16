@@ -4,3 +4,6 @@
 ![Screenshot (14)](https://user-images.githubusercontent.com/100995198/197386855-c4a84981-3dcd-4163-b47b-c9da55bb2f4b.png)
 ![Screenshot (15)](https://user-images.githubusercontent.com/100995198/197386860-02e62d93-2111-4109-9c46-52a49d9dfaed.png)
 ![Screenshot (16)](https://user-images.githubusercontent.com/100995198/197386862-5d4f2974-b593-406a-921b-120893271b74.png)
++ Fetching data from Rapid Api- Applied limit of render 50 videos per card.
++ <Reactplayer/> used to play video after clicking on video
++ Searchbar show what you video you are trying to search .
