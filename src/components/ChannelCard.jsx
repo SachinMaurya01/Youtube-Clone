@@ -1,8 +1,11 @@
 import React from 'react';
-import { Box, CardContent, CardMedia, Typography } from '@mui/material';
+import { Box, CardContent, CardMedia, Typography } from '@mui/material'; 
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { Link } from 'react-router-dom';
 import { demoProfilePicture } from '../utils/constants';
+
+// Typography component makes it easy to apply a default set of font weights and sizes in your application.
+// Stack component manages layout of immediate children along the vertical or horizontal axis with optional spacing and/or dividers between each child.
 
 const ChannelCard = ({ channelDetail, marginTop }) => (
   <Box
