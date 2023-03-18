@@ -13,14 +13,14 @@ const VideoDetail = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetchFromAPI(`videos?part=snippet,statistics&id=${id}`)
+    fetchFromAPI(`videospart=snippet,statistics&id=${id}`)
       .then((data) => setVideoDetail(data.items[0]))
 
-    fetchFromAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`)
+    fetchFromAPI(`searchpart=snippet&relatedToVideoId=${id}&type=video`)
       .then((data) => setVideos(data.items))
   }, [id]);
 
-  if(!videoDetail?.snippet) return <Loader />;
+  if(!videoDetail.snippet) return <Loader />;
 
   const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail; //here,we are destructing snippet and statistics object.
 
